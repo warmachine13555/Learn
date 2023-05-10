@@ -5,6 +5,10 @@ import statistics
 #vars
 Text = []
 word_length_values = []
+min_word = 0
+max_word = 0
+min_word_value = 0
+max_word_value = 0
 
 def analyze_text(Text):
 
@@ -27,8 +31,15 @@ def analyze_text(Text):
 
     #Kürzestes Wort und die länge des Wortes
     min_word = word_length_values.index(min(word_length_values))
-    print(Text[min_word])
+    min_word_value = min(word_length_values)
+    print(min_word)
+    print(min_word_value)
 
+    #Längstes Wort und die länge des Wortes
+    max_word = word_length_values.index(max(word_length_values))
+    max_word_value = max(word_length_values)
+    print(Text[max_word])
+    print(max(word_length_values))
 
 
 
@@ -47,4 +58,8 @@ print(f"Der Text enthält {len(Text)} Wörter.")
 print(statistics.median(word_length_values))
 
 #Kürzestes Wort und die länge des Wortes
-print(min(word_length_values))
+print(f"Das kürzeste Wort is {min_word} mit der Wortlänge {min_word_value}")
+
+#Längstes Wort und die länge des Wortes
+print(max(word_length_values))
+print(Text[max_word])

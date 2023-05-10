@@ -14,8 +14,6 @@ with open('Kassenbericht.csv', 'r') as datafile:
     for line in datafile:
         einkauf.append(line.replace('\n', ""))
 
-print(einkauf)
-
 warengruppe_a = {
 
     'Bananen': 1.50,

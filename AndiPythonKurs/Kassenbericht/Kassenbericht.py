@@ -1,4 +1,5 @@
 import csv
+import os
 
 #vars
 preis_gesamt = 0
@@ -6,10 +7,16 @@ waregp_a_preis = 0
 waregp_b_preis = 0
 waregp_c_preis = 0
 
+
 einkauf = []
 
 
 #get data from csv
+
+if not os.path.isfile('Kassenbericht.csv'):
+    print("ERROR FILE not found")
+    exit()
+
 with open('Kassenbericht.csv', 'r') as datafile:
     for line in datafile:
         einkauf.append(line.replace('\n', ""))

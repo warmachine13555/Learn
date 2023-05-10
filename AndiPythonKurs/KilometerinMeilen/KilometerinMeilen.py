@@ -1,3 +1,5 @@
+'''Dieses Programm rechnet Kilometer in diverse andere Maße um.'''
+
 Kilometer = input("Geben sie die KM an, die Sie umrechnen wollen.")
 
 

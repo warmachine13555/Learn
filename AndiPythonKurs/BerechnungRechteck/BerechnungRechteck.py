@@ -1,3 +1,6 @@
+'''Dieses Programm dient zum ermitteln des Umfangs und des Flächeninhaltes eines Rechtecks.'''
+
+
 l = float(input("Input the length"))
 w = float(input("Input the width"))
 

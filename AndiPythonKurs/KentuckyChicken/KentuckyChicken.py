@@ -1,3 +1,5 @@
+'''Dieses Programm rechnet verschiedene Parameter einer Farm aus.'''
+
 import csv
 
 ###Kentucky###

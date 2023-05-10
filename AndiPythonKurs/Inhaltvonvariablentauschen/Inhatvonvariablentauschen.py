@@ -1,3 +1,5 @@
+'''Dieses Programm dient zum tauschen der Werte der Variablen a und b'''
+
 a = 10
 b = 20
 

@@ -1,3 +1,5 @@
+'''Dieses Programm ermittelt dern Radius eines umschreibenden Kreises'''
+
 import math
 
 # Seitenlänge a vom Benutzer abfragen

@@ -1,3 +1,5 @@
+'''Dieses Programm dient dazu diverse Daten aus einer Kassenrechnung zu holen.'''
+
 import csv
 import os
 

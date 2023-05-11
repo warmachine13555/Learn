@@ -33,12 +33,12 @@ def analyze_text(Text):
     #Kürzestes Wort und die länge des Wortes
     min_word = word_length_values.index(min(word_length_values))
     min_word_value = min(word_length_values)
-    print(f"Das kürzeste Wort ist {Text[min_word]} mit der Wortlänge {min_word_value}")
+    print(f"Das kürzeste Wort ist - {Text[min_word]} - mit der Wortlänge {min_word_value}")
 
     #Längstes Wort und die länge des Wortes
     max_word = word_length_values.index(max(word_length_values))
     max_word_value = max(word_length_values)
-    print(f"Das kürzeste Wort ist {Text[max_word]} mit der Wortlänge {max_word_value}")
+    print(f"Das kürzeste Wort ist - {Text[max_word]} - mit der Wortlänge {max_word_value}")
 
 
 

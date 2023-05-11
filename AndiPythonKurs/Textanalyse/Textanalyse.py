@@ -6,10 +6,7 @@ import statistics
 Text = []
 word_length_values = []
 
-
 def analyze_text(Text):
-
-
 
     # Text Importieren
     if not os.path.isfile('Text.csv'):
@@ -40,8 +37,4 @@ def analyze_text(Text):
     max_word_value = max(word_length_values)
     print(f"Das kürzeste Wort ist - {Text[max_word]} - mit der Wortlänge {max_word_value}")
 
-
-
 analyze_text(Text)
-
-
